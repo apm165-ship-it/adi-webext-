@@ -13,121 +13,142 @@
 
 <!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
 
-<style> body { background-color: black; color: black; } h1, h2, h3, h4, h5, h6, p { color: black; } a { color: black; } </style>
-
-<div class="video">
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jTWgxFQ8F2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-       <p><i>Never going back again</i></p>
-</div>
-
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Pitt Fuego</title>
-<link rel="icon" type="image/jpg" href="favicon.jpg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Pitt Fuego</title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            color: white;
+        }
+
+        a {
+            color: white;
+        }
+
+        .marquee-pink {
+            background-color: pink;
+            color: black;
+            padding: 15px;
+            font-size: 24px;
+        }
+
+        .marquee-music {
+            color: white;
+            padding: 15px;
+            font-size: 30px;
+        }
+    </style>
 </head>
-
-
-
-<div class="pull-quote" style="text-align: center">
-<h2>Never going back again!</h2>
-</div>
 
 <body>
 
-<marquee scrollamount="15" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
+    <!-- VIDEO -->
+    <div class="video">
+        <div class="video-container">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/jTWgxFQ8F2Q" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
 
-<marquee scrollamount="8" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee>
-
-<marquee scrollamount="30" direction = "left"; padding: 15px; font-size: 24px;">
-    🎸🎸🎸🎸🎸🎸
-</marquee>
-
-<marquee scrollamount="15" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
-
-<marquee scrollamount="8" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee>
-
-<marquee scrollamount="30" direction = "left"; padding: 15px; font-size: 24px;">
-    🥁 🥁 🥁 🥁 🥁 🥁
-</marquee>
-
-<marquee scrollamount="21" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
-
-<marquee scrollamount="9" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee>
-
-  
-<!--To adjust hero image and text, find hero-image class on style.css-->
-<div class="hero-image">
-  <div class="hero-text">
-      <h1><marquee scrollamount="15" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
-
-<marquee scrollamount="8" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee>
-
-<marquee scrollamount="30" direction = "left"; padding: 15px; font-size: 24px;">
-    🎸🎸🎸🎸🎸🎸
-</marquee>
-
-<marquee scrollamount="15" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
-
-<marquee scrollamount="8" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee>
-
-<marquee scrollamount="30" direction = "left"; padding: 15px; font-size: 24px;">
-    🥁 🥁 🥁 🥁 🥁 🥁
-</marquee>
-
-<marquee scrollamount="21" direction = "right"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    Never going back again!
-</marquee>
-
-<marquee scrollamount="9" direction = "left"; style="background-color: pink; style = color: black; padding: 15px; font-size: 24px;">
-    The way it used to be is not the way that it is!
-</marquee></h1>
-  </div>
-</div>
-
-<!--To build your webtext, copy the code snippet (provided below) and paste into the <body> section below this line.-->
+        <p><i>Never going back again</i></p>
+    </div>
 
 
+    <!-- PULL QUOTE -->
+    <div class="pull-quote" style="text-align: center">
+        <h2>Never going back again!</h2>
+    </div>
 
 
+    <!-- MARQUEES -->
+
+    <marquee scrollamount="15" direction="right" class="marquee-pink">
+        Never going back again!
+    </marquee>
+
+    <marquee scrollamount="8" direction="left" class="marquee-pink">
+        The way it used to be is not the way that it is!
+    </marquee>
+
+    <marquee scrollamount="30" direction="left" class="marquee-music">
+        🎸 🎸 🎸 🎸 🎸 🎸
+    </marquee>
 
 
-  
+    <marquee scrollamount="15" direction="right" class="marquee-pink">
+        Never going back again!
+    </marquee>
 
-<div class="logo">
-  <img src="fuego.jpg" alt="Pitt Fuego Flame" width="25%">
-  <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
-  <p><em>Why make a spark when you can light a fire?</em></p>
-</div>
+    <marquee scrollamount="8" direction="left" class="marquee-pink">
+        The way it used to be is not the way that it is!
+    </marquee>
 
-     </html>
+    <marquee scrollamount="30" direction="left" class="marquee-music">
+        🥁 🥁 🥁 🥁 🥁 🥁
+    </marquee>
+
+
+    <marquee scrollamount="21" direction="right" class="marquee-pink">
+        Never going back again!
+    </marquee>
+
+    <marquee scrollamount="9" direction="left" class="marquee-pink">
+        The way it used to be is not the way that it is!
+    </marquee>
+
+
+    <!-- HERO IMAGE -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Pitt Fuego</h1>
+            <h2>Never going back again!</h2>
+        </div>
+    </div>
+
+
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="fuego.jpg" alt="Pitt Fuego Flame" width="25%">
+
+        <p>
+            <b>
+                generated by 
+                <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">
+                    Pitt Fuego
+                </a>
+            </b>
+        </p>
+
+        <p>
+            <em>Why make a spark when you can light a fire?</em>
+        </p>
+    </div>
+
+</body>
+</html>
+```
 
 
 
